@@ -1,5 +1,9 @@
 /* ini css */
 
+body {
+    background-color: rgb(246, 179, 252);
+}
+
 .main-title {
     text-align: center;
 }
@@ -56,10 +60,55 @@ input[type=number] {
     border: 3px solid #555;
   }
 
-  .result-section {
+  .result {
     text-align: center;
     background-color: #B2DFDB;
     border-radius: 8px;
     padding: 12px;
   }
 
+  .input-content {
+    margin-bottom: 0;"
+  }
+
+.input-list {
+    margin: 0;
+    width: 500px;
+}
+
+.input.list {
+    margin-top: 0;
+    width: 500px;
+}
+
+.input-content-maintitle {
+    width: 500px;
+}
+
+.bmi-scale {
+    display: flex;
+    margin-top: 50px;
+}
+
+.bmi-scale div {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 7px solid var(--color);
+}
+
+.bmi-scale h4 {
+    font-size: 0.75rem;
+    color:  #153147;
+}
+
+:root {
+    --underweight: orange;
+    --normal: green;
+    --overweight: lightcoral;
+    --obese:crimson;
+    }
+
+    .input-generalinfo {
+        width: 500px;
+    }
