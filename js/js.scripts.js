@@ -12,7 +12,7 @@ function calculate() {
         keterangan =  "normal";
     } else if ((result >= 17 ) & (result <= 18.5)){
         keterangan =  "underweight"
-    }
+    } 
 
     document.getElementById("result").innerHTML = result.toFixed(1);
     document.getElementById("keterangan").innerHTML = keterangan;
