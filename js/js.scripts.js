@@ -3,7 +3,6 @@ function calculate() {
     var height = parseFloat(document.getElementById("height").value)/100;
     var weight = parseFloat(document.getElementById("weight").value);
     var result = weight / (height * height);
-    var keterangan ="-";
 
     if(result > 27){
         keterangan = "obese";

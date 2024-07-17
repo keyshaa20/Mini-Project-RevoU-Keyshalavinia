@@ -30,21 +30,6 @@ form {
     border-radius: 8px;
 }
 
-.button {
-    border-radius: 8px;
-    margin-top: 8px;
-}
-
-.Submit {
-    background-color: #42A5F5;
-    border: 2px solid darkkhaki;
-}
-
-.Reset {
-    background-color: #42A5F5;
-    border: 2px solid darkkhaki;
-}
-
 input[type=number] {
     width: 100%;
     padding: 12px 20px;
@@ -68,7 +53,7 @@ input[type=number] {
   }
 
   .input-content {
-    margin-bottom: 0;"
+    margin-bottom: 0;
   }
 
 .input-list {
