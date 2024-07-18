@@ -2,7 +2,12 @@
 function calculate() {
     var height = parseFloat(document.getElementById("height").value)/100;
     var weight = parseFloat(document.getElementById("weight").value);
-    var result = weight / (height * height);
+    let result = weight / (height * height);
+
+    const resultText = document.getElementById('result');
+    const descText = document.getElementById('keterangan');
+
+    console.log(result);
 
     if(result > 27){
         keterangan = "obese";
@@ -14,6 +19,16 @@ function calculate() {
         keterangan =  "underweight"
     } 
 
+    resultText.className = keterangan;
     document.getElementById("result").innerHTML = result.toFixed(1);
     document.getElementById("keterangan").innerHTML = keterangan;
+}
+
+function reset() {
+    const resultText = document.getElementById('result');
+    const descText = document.getElementById('keterangan');
+
+    resultText.textContent = 0;
+    resultText.className = "";
+    descText.textContent = "-";
 }

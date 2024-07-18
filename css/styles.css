@@ -18,7 +18,7 @@ main {
     padding: 12px;
 }
 
-.input-title {
+.Gender {
     font-size: 14px;
     font-weight: bold;
 }
@@ -50,6 +50,19 @@ input[type=number] {
     background-color: #B2DFDB;
     border-radius: 8px;
     padding: 12px;
+  }
+
+  .result #result {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .result #keterangan {
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   .input-content {
@@ -97,3 +110,19 @@ input[type=number] {
     .input-generalinfo {
         width: 500px;
     }
+
+.underweight {
+    color: var(--underweight);
+}
+
+.normal {
+    color: var(--normal);
+}
+
+.overweight {
+    color: var(--overweight);
+}
+
+.obese {
+    color: var(--obese);
+}

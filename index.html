@@ -25,15 +25,15 @@
              <section>
                 <form>
                     <div>
-                        <div class="gender">Gender</div>
+                        <div class="Gender">Gender</div>
                         <input type="radio" id="selection-man"><label for="selection-man">Laki-laki</label>
                         <input type="radio" id="selection-woman"><label for="selection-woman">Perempuan</label>
                     </div>
-                    <div class="inputW">
+                    <div>
                         <label for="weight">Weight (Kg)</label>
                         <input type="number" id="weight" required>
                     </div>
-                    <div class="inputH">
+                    <div>
                         <label for="age">Age (th)</label>
                         <input type="number" id="age" required/>
                     </div>
@@ -42,7 +42,8 @@
                         <input type="number" id="height" required>
                     </div>
                     <div>
-                        <button onclick="calculate()">Submit</button>
+                        <button type="button" onclick="calculate()">Submit</button>
+                        <button type="button" onclick="reset()">Reset</button>
                     </div>
                 </form>
             </section>
@@ -79,7 +80,7 @@
         </section>
         
         <!-- Right Content -->
-         <section class="main-content">
+        <section class="main-content">
             <!-- Result Article -->
              <Article>
                 <header>
@@ -88,9 +89,9 @@
                 
                 <!-- Result Section -->
                  <section class="result">
-                    <p>Hasil BMI anda adalah:</p>
+                    <h3>Hasil BMI anda adalah:</h3>
 
-                    <h4 id="result">00.00</h4>
+                    <p id="result">00.00</p>
 
                     <p id="keterangan">-</p>
                  </section>
